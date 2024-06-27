@@ -15,11 +15,11 @@ This repository provides a detailed workflow for reverse geocoding using the Soc
 
 ### Step Two: Reverse Code to Block Group
 
-1. **Input Data:** 1) csv from Step One with Census Tract IDs 2) ABCD-linked walkability and residential density (D1a) 3) downloaded national walkability and residential density (
+1. **Input Data:** 1) csv from Step One with Census Tract IDs 2) ABCD-linked walkability and residential density (D1a) 3) downloaded national walkability and residential density (EPA)
 2. **Process:** 
    - Check for replicate entries.
    - Use the Walkability Index and Residential Density (d1a) along with the 11-digit FIPS code to map addresses to their respective block groups.
-3. **Output:** Addresses mapped to Block Group IDs and 10-digit GEOID.
+3. **Output:** Addresses mapped to Block Group IDs and 12-digit GEOID.
 
 ### Step Three: Secondary Matching Using State Code
 
